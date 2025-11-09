@@ -1,0 +1,5 @@
+# normalize line endings
+* text=auto
+*.py  text eol=lf
+*.csv text eol=lf
+*.ipynb -diff -merge
